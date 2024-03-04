@@ -8,15 +8,11 @@ export const Btn=styled.button`
     min-width: 230px;
     height: 48px;
     box-shadow: none;
-    color: #fff;
+    color: #fefef9;
     font-size: 2.3vh;
     letter-spacing: 2px;
     font-weight: 600;
     cursor: pointer;
-
-    &:hover{
-        filter: brightness(1.2);
-    }
 `
 export const BtnContainer=styled.div`
 display: flex;

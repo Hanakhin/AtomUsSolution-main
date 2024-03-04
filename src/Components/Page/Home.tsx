@@ -3,16 +3,12 @@ import { Link } from "react-router-dom";
 import styled, { keyframes } from "styled-components";
 import { Nav } from "../NavBar/Nav";
 import logo from './logo2.png';
+
 const MainContainer = styled.div`
     width:100%;
     height:100%;
     min-height: 100vh;
     background:#fff;
-`
-const BigImg = styled.div`
-    width:50%;
-    height: 550px;
-    background-image:url(${process.env.PUBLIC_URL + 'BigImg.png'});
 `
 const BigTitle=styled.div`
     width: 100%;
