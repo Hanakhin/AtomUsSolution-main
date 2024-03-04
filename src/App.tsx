@@ -4,9 +4,9 @@ import './App.css';
 import { AboutUs } from './Components/about/AboutUs';
 import { ContactPage } from './Components/Contact/Contact';
 import { Learning } from './Components/ELearning/learning';
-import { Login } from './Components/Login/Register/Login/login';
+import { Login } from './Components/LoginAndRegister/Login/login';
 import { Page } from './Components/Page/Home';
-import { Register } from './Components/Login/Register/Register/register';
+import { Register } from './Components/LoginAndRegister/Register/register';
 import { Shop } from './Components/Shop/shop';
 
 function App() {
