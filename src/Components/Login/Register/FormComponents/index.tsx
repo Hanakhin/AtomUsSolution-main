@@ -30,6 +30,13 @@ export const FormBtn = styled.div`
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    border: 2px solid transparent;
+
+    &:hover{
+        border: 2px solid #222;
+        color: #222;
+        background-color: #fff;
+    }
 `
 export const FormDiv = styled.div`
     width: 20%;
