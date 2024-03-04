@@ -12,12 +12,13 @@ import { Link } from "react-router-dom";
 
 const NavContainer = styled.div<{ opened: boolean }>`
     display:inline-flex;
-    width: 100%;
+    width: 90%;
     height:150px;
     padding:22px;
     transition: all 0.4s ease-in-out;
     position: fixed;
     z-index: 1;
+    border-bottom: 2px solid #222;
 
     @media(max-width:1024px){
         flex-direction: column;
@@ -44,7 +45,7 @@ const NavButton = styled.div`
             color: #FFF;
 
     }
-}`
+`
 const Logo = styled.img`
     width:200px;
     height:130px;

@@ -9,6 +9,8 @@ const MainContainer = styled.div`
     height:100%;
     min-height: 100vh;
     background:#fff;
+    display: flex;
+    justify-content: center;
 `
 const BigTitle=styled.div`
     width: 100%;
@@ -69,10 +71,13 @@ const AboutUsBtn=styled.button`
     transition: all 0.2s;
     border: 2px solid #222;
     font-weight: 600;
+    box-shadow: 6px 8px #222;
 
     &:hover{
         background-color: #222;
         color: #fff;
+        box-shadow: none;
+        transition: all .2s ease-out;
     }
 
 `
