@@ -47,10 +47,10 @@ export const FormDiv = styled.div`
     padding: 22px;
     align-items: start;
     row-gap: 12px;
+    min-height: 400px;
+    min-width: 400px;
     @media (max-width:1300px){
         width: 100%;
-        max-width: 500px;
-        max-height: 500px;
         height: 100%;
         align-items: center;
         justify-content: center;
