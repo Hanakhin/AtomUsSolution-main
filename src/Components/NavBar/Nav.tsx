@@ -23,6 +23,7 @@ const NavContainer = styled.div<{ opened: boolean }>`
     @media(max-width:1024px){
         flex-direction: column;
         height: 100vh;
+        width: 100%;
         background-color: rgba(0,0,0,0.85);
         transform:${p => p.opened ? 'translateY(0)' : 'translateY(-100%)'} ;
         backdrop-filter: blur(2px);
