@@ -38,7 +38,10 @@ export const Login: React.FC = (props) => {
     return (
         <Container>
                 <FormDiv>
+                    <div style={{display:"inline-flex",width:"100%",justifyContent:"space-between",alignItems:"center"}}>
                     <FormTitle>Sign In</FormTitle>
+                    <Link to="/" style={{textDecoration:"none"}}><h4 style={{textDecoration:"none",color:"#222"}}>Cancel</h4></Link>
+                    </div>
                         <InputDiv>
                             <InputText>Email</InputText>
                             <FormInput type="email" name="email" required onChange={(event)=>setEmail(event.currentTarget.value)}></FormInput>
