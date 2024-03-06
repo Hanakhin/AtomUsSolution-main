@@ -26,7 +26,7 @@ export const Login: React.FC = (props) => {
         signInWithEmailAndPassword(auth, email, password)
           .then((userCredential) => {
             const user = userCredential.user;
-            window.alert('successfully registered')
+            window.alert('successfully Logged in')
             navigate('/')
           })
           .catch((error) => {
